@@ -375,6 +375,11 @@ footer a {
 
 /* -------------- 1024px --------------- */
 @media screen and (min-width: 1024px) {
+    header {
+        padding: 0;
+        line-height: 1em;
+    }
+    
     #datePub {
         font-size: 2.5em;
         padding-bottom: 1em;
@@ -426,6 +431,15 @@ footer a {
         font-size: 2em;
     }
 
+    aside div {
+        display: inline-block;
+        width: 30%;
+    }
+
+    aside {
+        text-align: center;
+    }
+
     footer, header {
         font-size: 2em;
     }
@@ -472,6 +486,15 @@ footer a {
 
     section button {
         font-size: 2.5em;
+    }
+
+    aside div {
+        display: inline-block;
+        width: 30%;
+    }
+
+    aside {
+        text-align: center;
     }
 }
 /* -------------- Media Print --------------- */
